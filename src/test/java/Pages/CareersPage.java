@@ -42,12 +42,5 @@ public class CareersPage {
 			Assert.assertEquals(newValue, "collapse");
 		}
 	}
-	
-	//checking the careers page title.
-		public void validateTitle(){
-			String expectedTitle = "Hexad GMBH - Careers";
-	        String actualTitle = driver.getTitle();
-	        Assert.assertEquals(actualTitle, expectedTitle);
-		}
 }
 	

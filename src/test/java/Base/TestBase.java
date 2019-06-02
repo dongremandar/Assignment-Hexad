@@ -18,7 +18,6 @@ public class TestBase {
  @BeforeSuite
  //Before the automation starts, assign the chrome driver to web driver object and access the home page. 
  public void initialize() throws IOException	{
-	 System.out.println(System.getProperty("user.dir")+"\\src\\test\\java\\drivers\\chromedriver.exe");
 	 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\java\\drivers\\chromedriver.exe");
 	 driver = new ChromeDriver(); 
 	 
